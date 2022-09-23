@@ -1,0 +1,28 @@
+{
+  "name": "backend-entregables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fllantada/CurseBackEndCoderHouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fllantada/CurseBackEndCoderHouse/issues"
+  },
+  "homepage": "https://github.com/fllantada/CurseBackEndCoderHouse#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.19",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.3"
+  }
+}
